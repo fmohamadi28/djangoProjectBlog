@@ -1,0 +1,18 @@
+body{
+    background-color: #004aff;
+    background-image:url(images.jpg);
+    background-attachment: fixed;
+    background-repeat-y:no-repeat;
+    color:#fff
+}
+body*{
+    font-family:arial;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    margin:0;
+}
+a,a:hover,a:visited{
+    color:#fff;
+    text-decoration:none;
+}
