@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <div class="article-detail">
+        <div class="article">
+            <img src="{{ article.image.url }}" alt="">
+            <h1>{{ article.title }}</h1>
+            <p>{{ article.body }}</p>
+            <p>{{ article.date }}</p>
+        </div>
+    </div>
+{% endblock %}
